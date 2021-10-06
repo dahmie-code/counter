@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-color: #c4c4c4;
+   font-family: 'Raleway', sans-serif;
+   
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 25%;
+    padding: 20px 10px;
+    background: #22436c;
+    border-radius: 10px;
+    
+  }
+  
+  .container p {
+    text-align: center;
+    color: #fff
+  }
+  
+  .container .header {
+    font-size: 30px;
+    text-align: center;
+    color: #a7a7a7;
+  }
+  
+  .container span {
+    font-size: 100px;
+    color: #a7a7a7;
+    display: block;
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+  }
+  
+  .button-container .decrease {
+    background: #fff;
+    color: #e4215c;
+    border: none;
+    outline: none;
+    padding: 11px 20px;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .button-container .reset {
+    background: #fff;
+    color: #a7a7a7;
+    border: none;
+    outline: none;
+    padding: 11px 20px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .button-container .increase {
+    background: #fff;
+    color: #93d823;
+    border: none;
+    outline: none;
+    padding: 11px 20px;
+   font-size: 20px;
+    cursor: pointer;
+  }
+
+  @media(max-width:900px) {
+    .container {
+        width: 70%;
+           }
+      
+          
+      .container .header {
+        font-size: 15px;
+      }
+      
+      .button-container .decrease {
+        padding: 8px 7px;
+        font-size: 10px;
+       
+      }
+      
+      .button-container .reset {
+         padding: 8px 7px;
+       
+      }
+      
+      .button-container .increase {
+        padding: 8px 7px;
+        font-size: 10px;
+        }
+  }
